@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body {
+    background-image:linear-gradient(to right, yellow, blue);
+  font: italic bold 1em "work sans", sans-serif;
+}
+h1 {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+

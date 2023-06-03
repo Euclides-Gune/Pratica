@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('imagens/pattern001.png');
+    color: white;
+}
+
+div#real {
+    background-image: url('imagens/cristiano-ronaldo-pq.jpg');
+    height: 300px;
+    width: 400px;
+    background-position: left center top;
+    background-repeat: no-repeat;
+}
+
+div#juve {
+    background-image: url('imagens/roando-juventus-pq.jpg');
+    height: 300px;
+    width: 400px;
+    background-repeat: no-repeat;
+}
+
+table {
+    border-collapse: collapse;
+    width: 500px;
+    margin: auto;
+}
+
+tbody > tr:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.512);
+}
+
+td, th {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+}
+
+caption {
+    background-color: rgba(255, 255, 255, 0.726);
+    border: 1px solid white;
+    padding: 10px;
+}
