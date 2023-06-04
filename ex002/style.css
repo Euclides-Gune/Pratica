@@ -6,12 +6,6 @@ body {
     color: white;
 }
 
-header {
-    background-image: linear-gradient(to bottom, orange, yellow);
-    padding-bottom: 20px;
-    text-align: center;
-}
-
 div#real {
     background-image: url('imagens/cristiano-ronaldo-pq.jpg');
     height: 300px;
